@@ -43,7 +43,7 @@ window.onload = ()=>{ $('.mdui-progress').hide() }
 
 <div class="mdui-toolbar mdui-color-theme">
   <a class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">domain</i></a>
-  <span class="mdui-typo-title">1707 社区</span>
+  <span class="mdui-typo-title">Title</span>
   <div class="mdui-toolbar-spacer"></div>
 </div>
 
