@@ -105,6 +105,30 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </div>
 </div>
 </div>
+<div class="mdui-table-fluid">
+  <table class="mdui-table mdui-table-selectable">
+    <thead>
+      <tr>
+        <th>科目</th>
+        <th>考试时间</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="mdui-table-row-selected">
+        <td>地理</td>
+        <td>8:30-9:30</td>
+      </tr>
+      <tr>
+        <td>生物</td>
+        <td>10:00-11:00</td>
+      </tr>
+      <tr>
+        <td>政治</td>
+        <td>15:00-16:30</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26620888&auto=1&height=66"></iframe>
 <!--RioHsc Community core-->
 <div id="comment"></div>
