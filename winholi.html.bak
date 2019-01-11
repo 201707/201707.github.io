@@ -37,4 +37,19 @@ window.onload = ()=>{ $('.mdui-progress').hide(2500) }
   <div class="mdui-toolbar-spacer"></div>
 </div>
 <div class="mdui-container" style="padding-top:140px; padding-bottom:40px">
+<!--RioHsc Community core-->
+<div id="comment"></div>
+<!--Leancloud Operation library-->
+<script src="/js/av-min.js"></script>
+<!--Community Core code base-->
+<script src="/js/Rio.js"></script>
+<script>
+    new Valine({
+        el:'#comment',
+        appId: '20AbagoW87V78RogjteXYaQV-gzGzoHsz',
+        appKey: 'soKIPLjOue61bwlum2emj5L8',
+        placeholder: 'What happened today?',
+        avatar: 'mp'
+    });
+</script>
 </div>
