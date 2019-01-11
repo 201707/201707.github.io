@@ -37,6 +37,12 @@
 <script src="/js/mdui.min.js"></script>
 
 <script>
+function winholi(){
+    window.location.href='/winholi';
+}
+</script>
+
+<script>
 mdui.snackbar({
   message: '新手? 是否阅读须知?',
   timeout: '5000',
@@ -84,7 +90,7 @@ window.onload = ()=>{ $('.mdui-progress').hide() }
   <i class="mdui-switch-icon"></i>
 </label>
 <div class="mdui-divider"></div>
-<div class="mdui-chip" style="padding-top:20px">
+<div onclick="winholi()" class="mdui-chip" style="padding-top:20px">
   <span class="mdui-chip-icon mdui-color-deep-purple"><i class="mdui-icon material-icons">nature_people</i></span>
   <span class="mdui-chip-title">寒假</span>
 </div>
