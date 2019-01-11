@@ -110,7 +110,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
     <thead>
       <tr>
         <th>科目</th>
-        <th>考试时间</th>
+        <th>考试时间 [星期五 01月11日]</th>
       </tr>
     </thead>
     <tbody>
@@ -125,6 +125,50 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
       <tr>
         <td>政治</td>
         <td>15:00-16:30</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="mdui-table-fluid">
+  <table class="mdui-table mdui-table-selectable">
+    <thead>
+      <tr>
+        <th>科目</th>
+        <th>考试时间 [星期一 01月14日]</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="mdui-table-row-selected">
+        <td>语文</td>
+        <td>8:00-10:00</td>
+      </tr>
+      <tr>
+        <td>历史</td>
+        <td>10:30-11:30</td>
+      </tr>
+      <tr>
+        <td>数学</td>
+        <td>15:00-16:30</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="mdui-table-fluid">
+  <table class="mdui-table mdui-table-selectable">
+    <thead>
+      <tr>
+        <th>科目</th>
+        <th>考试时间 [星期二 01月15日]</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="mdui-table-row-selected">
+        <td>英语</td>
+        <td>8:00-9:30</td>
+      </tr>
+      <tr>
+        <td>生物</td>
+        <td>10:00-11:30</td>
       </tr>
     </tbody>
   </table>
