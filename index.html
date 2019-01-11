@@ -35,6 +35,10 @@
                 $("#mdle").show();
                 $("#dle").hide(2000);
             });
+            $("#2018").click(function () {
+                $("#exam").show();
+                $("#2018").hide(2000);
+            });
         });
     </script>
 </head>
@@ -105,12 +109,22 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </div>
 </div>
 </div>
-<div style="padding-bottom:20px">
+<a class="mdui-col-xs-9">2018-2019 上册期末检测安排</a>
+<div id="2018">
+<label class="mdui-switch">
+  <input type="checkbox"/>
+  <i class="mdui-switch-icon"></i>
+</label>
+</div>
+<div id="exam">
+<div class="mdui-divider" style="padding-bottom:20px"></div>
+<div class="mdui-typo-body-2-opacity">● 灰色的表格为已考过的试</div>
+<div style="padding-top:20px; padding-bottom:20px">
 <div class="mdui-table-fluid">
   <table class="mdui-table mdui-table-selectable">
     <thead>
       <tr>
-        <th>科目</th>
+        <th class="mdui-table-row-selected">科目</th>
         <th>考试时间 [星期五 01月11日]</th>
       </tr>
     </thead>
@@ -119,12 +133,12 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
         <td>地理</td>
         <td>8:30-9:30</td>
       </tr>
-      <tr>
+      <tr class="mdui-table-row-selected">
         <td>生物</td>
         <td>10:00-11:00</td>
       </tr>
-      <tr>
-        <td>政治</td>
+      <tr class="mdui-table-row-selected">
+        <td class="mdui-table-row-selected">政治</td>
         <td>15:00-16:30</td>
       </tr>
     </tbody>
@@ -141,7 +155,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
       </tr>
     </thead>
     <tbody>
-      <tr class="mdui-table-row-selected">
+      <tr>
         <td>语文</td>
         <td>8:00-10:00</td>
       </tr>
@@ -177,6 +191,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
       </tr>
     </tbody>
   </table>
+</div>
 </div>
 </div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26620888&auto=1&height=66"></iframe>
