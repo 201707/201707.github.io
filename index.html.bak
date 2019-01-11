@@ -184,7 +184,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="mdui-table-row-selected">
         <td>英语</td>
         <td>8:00-9:30</td>
       </tr>
