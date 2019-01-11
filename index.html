@@ -15,6 +15,7 @@
         $(document).ready(function () {
         $("#rio_2").hide();
         $("#rio_3").hide();
+        $("#mdle").hide();
             $("#r1").click(function () {
                 $("#rio_1").show();
                 $("#rio_2").hide();
@@ -29,6 +30,9 @@
                 $("#rio_1").hide();
                 $("#rio_2").hide();
                 $("#rio_3").show();
+            });
+            $("#dle").click(function () {
+                $("#mdle").show();
             });
         });
     </script>
@@ -85,15 +89,19 @@ window.onload = ()=>{ $('.mdui-progress').hide() }
 <div id="rio_1">
 <div class="mdui-container" style="padding-top:140px; padding-bottom:40px">
 <a class="mdui-col-xs-9">显示版块列表</a>
+<div id="dle">
 <label class="mdui-switch">
   <input type="checkbox" disabled checked/>
   <i class="mdui-switch-icon"></i>
 </label>
+</div>
+<div id="mdle">
 <div class="mdui-divider"></div>
 <div style="padding-top:20px; padding-bottom:20px">
 <div onclick="winholi()" class="mdui-chip">
   <span class="mdui-chip-icon mdui-color-deep-purple"><i class="mdui-icon material-icons">nature_people</i></span>
   <span class="mdui-chip-title">寒假</span>
+</div>
 </div>
 </div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26620888&auto=1&height=66"></iframe>
