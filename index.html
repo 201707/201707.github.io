@@ -16,6 +16,7 @@
         $("#rio_2").hide();
         $("#rio_3").hide();
         $("#mdle").hide();
+        $("#exam").hide();
             $("#r1").click(function () {
                 $("#rio_1").show();
                 $("#rio_2").hide();
@@ -117,14 +118,16 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </label>
 </div>
 <div id="exam">
-<div class="mdui-divider" style="padding-bottom:20px"></div>
+<div style="padding-bottom:20px">
+<div class="mdui-divider"></div>
+</div>
 <div class="mdui-typo-body-2-opacity">● 灰色的表格为已考过的试</div>
 <div style="padding-top:20px; padding-bottom:20px">
 <div class="mdui-table-fluid">
   <table class="mdui-table mdui-table-selectable">
     <thead>
-      <tr>
-        <th class="mdui-table-row-selected">科目</th>
+      <tr class="mdui-table-row-selected">
+        <th>科目</th>
         <th>考试时间 [星期五 01月11日]</th>
       </tr>
     </thead>
