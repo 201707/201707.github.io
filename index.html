@@ -66,6 +66,14 @@ mdui.snackbar({
 </script>
 
 <script>
+function lea(){
+mdui.snackbar({
+  message: '记得复习, 主要背单词'
+});
+}
+</script>
+
+<script>
 window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </script>
 
@@ -100,7 +108,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
       <li>整理所有试卷, 注意错题, 尤其要注意平时作文中扣分的地方, 如果时间允许, 建议把扣分较多的作文重写一遍。
       </ol></div>
   <div class="mdui-dialog-actions">
-    <button class="mdui-btn mdui-ripple" close.mdui.dialog>OK</button>
+    <button class="mdui-btn mdui-ripple" onclick="lea()" mdui-dialog-close>OK</button>
   </div>
 </div>
 
