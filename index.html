@@ -17,6 +17,7 @@
         $("#rio_3").hide();
         $("#mdle").hide();
         $("#exam").hide();
+        $("#leaningeng").hide();
             $("#r1").click(function () {
                 $("#rio_1").show();
                 $("#rio_2").hide();
@@ -39,6 +40,9 @@
             $("#2018").click(function () {
                 $("#exam").show(500);
                 $("#2018").hide(1300);
+            });
+            $("#leaning").click(function () {
+                $("#leaningeng").show(500);
             });
         });
     </script>
@@ -94,6 +98,25 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 <div>
 <div id="rio_1">
 <div class="mdui-container" style="padding-top:140px; padding-bottom:40px">
+<div id="leaning">
+<button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-center mdui-ripple-black">Button</button>
+</div>
+<div id="leaningeng">
+<div class="mdui-ripple mdui-hoverable mdui-ripple-black">
+<div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+    <div class="mdui-panel-item-header">英语复习方法</div>
+    <div class="mdui-panel-item-body mdui-typo">
+      <ol>
+      <li>背、默本册书所有单词</li>
+      <li>熟读每篇课文, 注意每个单元的课文题目；(句子非常重要! 一方面, 句子包含了生单词、语法知识, 如果句子熟练, 语感自然能够提高, 语法自然容易理解、记牢；另一方面, 写作文时可以从中借鉴, 避免句子出错)</li>
+      <li>整理所有试卷, 注意错题, 尤其要注意平时作文中扣分的地方, 如果时间允许, 建议把扣分较多的作文重写一遍。
+      </ol>
+    </div>
+  </div>
+</div>
+</div>
 <div id="dle">
 <a class="mdui-col-xs-9">显示版块列表</a>
 <label class="mdui-switch">
@@ -126,7 +149,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 <div class="mdui-typo-body-2-opacity mdui-typo"><ul><li>绿色的表格为已考过的试</li></ul></div>
 <div style="padding-top:20px; padding-bottom:20px">
 <div class="mdui-table-fluid mdui-color-green-100">
-  <table class="mdui-table mdui-table-selectable mdui-color-green-100 mdui-hoverable mdui-ripple-black">
+  <table class="mdui-table mdui-table-selectable mdui-color-green-100 mdui-hoverable mdui-ripple-black mdui-ripple">
     <thead>
       <tr>
         <th>科目</th>
@@ -152,7 +175,7 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </div>
 <div style="padding-bottom:20px">
 <div class="mdui-table-fluid mdui-color-green-100">
-  <table class="mdui-table mdui-table-selectable mdui-color-green-100">
+  <table class="mdui-table mdui-table-selectable mdui-color-green-100 mdui-hoverable mdui-ripple-black mdui-ripple">
     <thead>
       <tr>
         <th>科目</th>
