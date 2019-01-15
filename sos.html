@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="width=device-width,minimum-scale=1.0" name="viewport">
+        <meta content="telephone=no" name="format-detection">
+        <meta content="address=no" name="format-detection">
+        <meta name="Keywords" content="聊天宝,聊天宝下载,聊天宝app">
+        <meta name="Description" content="北京快如科技是一家以即时通讯软件为主营业务的科技公司，主要产品是聊天宝。北京快如科技官网提供聊天宝下载方式和聊天宝app详细的功能介绍。">
+        <link rel="shortcut icon" sizes="76x76" href="https://static-website.zidanduanxin.com/common/img/liaotianbao/favicon_76.png?v=1">
+        <link rel="apple-touch-icon" sizes="100x100" href="https://static-website.zidanduanxin.com/common/img/liaotianbao/favicon_76.png?v=1">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://static-website.zidanduanxin.com/common/img/liaotianbao/favicon_114.png?v=1">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://static-website.zidanduanxin.com/common/img/liaotianbao/favicon_120.png?v=1">
+
+        <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_892578_ulms1u3zvu.css">
+
+        <title v-model="title"></title>
+    <link href="https://static-website.zidanduanxin.com/styles_1d8096f23acf885e697c87cf5c37e56c.css" rel="stylesheet"></head>
+    <body>
+      
+        <div id="app" data-server-rendered="true" class="app"><div class="top_nav_box_holder"><div id="top_nav_box" class="top_nav_box"><div class="top_nav_center"><a href="/" class="zd-title-wrap router-link-active"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAABLCAMAAADTaf7vAAADAFBMVEUAAAD03V//8Xn74kz++qr85ErkrkbClj/++ZvyuUnsuknpuUnUpEP4403UnkHgtUjAlD7v7ZL/+o3FmUD//pn9+bPnrEb983zzzUv7+br//Zn47Xj6+sHntUjcrEX+5Ury8a/5203cpkT//Ift7JzcsUj/+4LoqkXpskfswEngsEb//5Terkbu6JDy8a7jrEbhpkTrvkn88Wbiq0Xb03nqxkz+/4/860vcpET19rf//47jsEf86k3pzkz99HDZoEL//6f//73//6r81zj/3kr6vjnyuC3zrSvmkiD//Nr/9LX/8ZP5zDfjnDPkmCv//dT+2Wj/5Vr/4Fb/20HutUDqqj/5yz77xDzpqjrnpjb2xjT3tzH1sy/fjCfijSHidQD/+s//97//9rn/9LD+8pv/7YH/9ID/5mz/7lr5xEn/3Eb+0kT7yUTsrkT5wTr3uzTuoybehh7//7b/74b/6nj6zFb/7k371U362ET+4EP+5kH9zj/91T7+2TzmojrzwDHglDHwqCjzsSXolyLbhCHhih///Lb//67/+KP+6pv/417/4k7/0Uvuu0f/1kbut0P70T360zj2wTToozL/2TDtniTrmiLvkxL/+cj//sT/8aT//J/64Ynsv3v/727+52P+31r/2lLyvUn2xUD94j393jz/xTL/uDHusSzuqyndhijjkCa6bBrxpBmQOBfbcQX+9ar+6JX/947wx33933j74Wn//GD521j+6FX4uEfwtEb8wEXxsET93DPyvDL8qSvfkCv+sCfpoSXypx3/qhzadxfZfxPjiQX57az/84z+5IH/9F330UjZoz7utTfpqTDvnC3nlirjoCOfUxzvoBirWhaFFxTMcw3pgAB8IwD04aL/+JHvzX//83TlpFrknk/gsELzuT7Ugj394TX/sDT2oi3PgijosiffkCPzqB7tkw57Bg3HXguBKQqLNgbSWwC8PgCuNwA9AADpz6Tfs4vrxIjmsG/Rilbu0k32zkn/vTrKkTjDaTbYmTO9fzH/ohDq0b4yAAAAQHRSTlMAFv6M76aXCv7z0oFiU0pGLCsjIfPm4N7X1tTPw7muoJ2BcVJCPDP66d3HxcTBwL+7urKymZOSkIx+fXZ0ZURCFtEDrwAABLxJREFUSMft0nVYE2EcwPETu7u7u7vvtjnnygluYyyEhSvHYJvbqDEdKYKCpEgIUlICIt1ld3d3d+t7G/pYj3/7PPL5635333uf5+59oSZNmvzfus4d0LdnixYtevYdMGTEn5NuXZs1tkOifPwurEbltvGJmtTYN+vW7Xs7qh8muk2/WcMhaAaCCK0urd5HIpH2rbay2ueDTASP543vEQ23GN74Yg+VmkYTi3J794/2E8WKSFsFRD6fuEuojrUS+vXvnavW0GgaDLzIXE+Dfd9/qa1KKSmwUovjNCQBP9Le3j7SQSAUieNE6nxpSlVtbS0JsTIvfeACQjt7PyIis0C8IV4s8ic62C9btmx5JH+rWhwfnx+3PiIi4mwREh3bEdQdtZfgKOOT+rrjep2uIH9/jsBc2zsQ/ffnF+h0+jv19U+yichq7WxQL3DV5qr4158+PG7nydDRdu/P2UrkOzgQ9/pv203TMew875x5+vA8Ei1xHQzq5q47JG1UUW+encHj8Z6Ja2m7t+X4+/vngHbtmhBwr+HZx72IX6yra0tLfaPQD4O8uJ7dcHL9+vXsJdK1KKmjEkw1Ddl1LxEMJvbGDkvtsiOpLM4PVqliLnNXnb1/MjOzpubevZrMzJMRDaucr7zehcC7NGVlO1wsdVISNtRFiMAY1d5Xl3fWZa+yyK7beSXmvMoX9hGsCC3DJpnroXobLBYbmqTZ5eAD+2KE2y7m5cXExOTlXdwmhH1hX0SgxoWCwkOPfuVCmXtwMBhCZSL+8kgfDAaGMSgY8I1aHkkKCMV6YIOD3fXNQd1Zv5lMDsZ62NjY4MQkov1ysDMo8z8XagLAfRCTyZv1Q9G9PMiwsyNvdvewkeFwuIA4jfmcEAVbSSKxNQ6w8XDfTLazYxzsCAF9GCGeaB4kk+EK9+yRWK+wsF4BBpxMFoTGnp6J78yneuaacnx5CNlNHhSkDTh0yPpA/AZUvERy9dBBbVCQ3A1sKL48sQ+EGrnmcGoqPoTJkAdczTr9IOutxBpVWHjiwenTHwJAHFKOTz2c2B4yG3vtSFoqXunIkN0+RWFlnZBsRx34/OgTKyND7sYMwaemHTks7W6p25ccOV6dxmE7Orq54LRurI1mOttELc7F3dFRyUlzqt5ybSpk0UVqSzVVr1vKUS5hMplucuYaFFMuZzJBy166rtpEZZV0gBoNKqHcJZicQM9mK5VLvlOy2ZylaU7hhLtURdvW3+rWUttKZ29CGOiBZDKbw+Gwk5M5YFjnFGbiOXMpRZ2h7zoUUbhezgRTGHihKuNUSnJKSnLGiXVLnZzCwgneXjuNpYOgH/QqNe70AsubwsOrTj0/l1F/5vHzxxVh4SaCt7OXV6WhGPpR97Z0Ixf0PAKBUJGede7RuazbFeEEAg/EXKOhqBP0ky6ldIqxksvl8Xjet27eOnb0ZgXPm8fjciuNFIOiA/SLTqV0g4FCoVKpx9LTjx09mp5OBSgUg4GuALv4W95LQafTbW1tWawtKBaLBQY6XTF6GPQHrVspios3bdq08htwXaxQTOkO/VmXOdPHBCYkJEgDAwOlCYEJgW0nt1oM/UXrkcNaDZzQrl27cQNbze/cDGrSpMm/7itgXCRycKP2eAAAAABJRU5ErkJggg==" class="zd-logo"> <span class="zd-title">聊天宝</span></a> <div class="zd-nav-toggle zd-only-mobile"><span class="iconfont icon-menu"></span> <span class="iconfont icon-menu_close"></span></div> <nav id="zd-nav" class="zd-nav"><a href="/"><span>首页</span></a> <a href="/about/"><span>关于我们</span></a> <a href="/joinus/">加入我们</a> <a href="/info/">付费资讯</a> <a target="_blank" href="https://im.zidanduanxin.com" class="zd-only-pc">登录/注册</a></nav></div></div> <div onclick="zd_nav_open_menu()" class="zd-nav-mask zd-only-mobile"></div></div> <div class="zd-body zd-download-wrap"><div class="wrap zd-only-pc"><div class="bg"></div> <div class="zd-index-download-wrap zd-only-pc right-now"><a id="mobile-download-btn-pc" download class="zd-index-btn"></a></div> <div class="zd-index-download-wrap zd-only-pc three-apps"><a href="http://www.duoshanapp.com/" class="zd-index-btn single-app"></a> <a href="https://www.mtoilet.com/" class="zd-index-btn single-app"></a> <a id="mobile-download-btn-small-pc" download class="zd-index-btn single-app"></a></div></div> <div class="wrap zd-only-mobile"><div class="bg"></div> <div class="zd-index-download-wrap zd-only-mobile right-now"><a id="mobile-download-btn" class="zd-index-btn"></a></div> <div class="zd-index-download-wrap zd-only-mobile three-apps"><a href="http://www.duoshanapp.com/" class="zd-index-btn single-app"></a> <a href="https://www.mtoilet.com/" class="zd-index-btn single-app"></a> <a id="mobile-download-btn-small" class="zd-index-btn single-app"></a></div></div></div> <!----> <div class="zd-footer-wrap"><div class="zd-footer"><p class="zd-footer-p1">Copyright © 2018 - 2019, Co.QuickAs, Ltd.All Right Reserved.  京ICP备18027031号-2</p> <p class="zd-footer-p2">北京快如科技有限公司<span class="zd-footer-after-corp"></span>地址：北京市朝阳区望京启明国际大厦二层<span class="zd-footer-after-corp"></span>联系方式：010-84148524</p> <div style="padding-top:10px;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502036473" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://static-website.zidanduanxin.com/img/bfg-icon-zf.png" style="float:left;vertical-align: middle; width: 19px; height: 19px; margin: 0!important;"><span style="color:#333333; margin-left: 1em">京公网安备 11010502036473号</span></a></div></div></div></div>
+      
+      <script src="https://static-website.zidanduanxin.com/third-part/jquery3.3.1.min.js"></script>
+      <script src="https://static-website.zidanduanxin.com/vue/vue.runtime-2.5.9_vue-router-3.0.2.js"></script>
+
+      
+      <!-- arms 监控 -->
+      <script>
+        !(function(c,b,d,a){c[a]||(c[a]={});c[a].config={pid:"ij4e5lfvx4@01867653246bec8",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?"};
+        with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+        })(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+      </script>
+      
+      
+      <!--sensors 统计 -->
+      <script>
+        (function(para) {
+          var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+          if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+              return false;
+          }
+          w['sensorsDataAnalytic201505'] = n;
+          w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+          var ifs = ['track','quick','register','registerPage','registerOnce','clearAllRegister','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister'];
+          for (var i = 0; i < ifs.length; i++) {
+            w[n][ifs[i]] = w[n].call(null, ifs[i]);
+          }
+          if (!w[n]._t) {
+            x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+            x.async = 1;
+            x.src = p;
+            y.parentNode.insertBefore(x, y);
+            w[n].para = para;
+          }
+        })({
+          sdk_url: 'https://www.zidanduanxin.com/sensors/sensorsdata.min.js',
+          name: 'sensors',
+          server_url: `https://ds-import.zidanduanxin.com/sa?project=imapp_formal`,
+          //heatmap_url神策分析中点击分析及触达分析功能代码，代码生成工具会自动生成。如果神策代码中 `sensorsdata.min.js` 版本是 1.9.1 及以上版本，这个参数必须配置，低于此版本不需要配置。
+          heatmap_url: "https://www.zidanduanxin.com/sensors/heatmap.min.js",
+          //web_url 神策分析中点击分析及触达分析功能会用到此地址，代码生成工具会自动生成。如果神策后台版本及 `sensorsdata.min.js` 均是 1.10 及以上版本，这个参数不需要配置。
+          heatmap: {
+            //是否开启点击图，默认 default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭
+            //需要 JSSDK 版本号大于 1.7
+            clickmap: 'not_collect',
+            //是否开启触达注意力图，默认 default 表示开启，自动采集 $WebStay 事件，可以设置 'not_collect' 表示关闭
+            //需要 JSSDK 版本号大于 1.9.1
+            scroll_notice_map:'not_collect'
+          }
+        });
+        sensors.quick('autoTrack'); //神策系统必须是1.4最新版及以上
+      </script>
+      
+    <script type="text/javascript" src="https://static-website.zidanduanxin.com/main_bundle_40921d0e9bb9642fa89c.js"></script></body>
+</html>
