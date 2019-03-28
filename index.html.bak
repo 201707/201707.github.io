@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>201707 Forum [Beta]</title>
-<meta name="theme-color" content="#4CAF50">
+<meta name="theme-color" content="#E53935">
 <meta name="keywords" content="同学, 交流, 闲聊">
 <meta name="description" content="201707 的班级论坛">
 <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
     </script>
 </head>
-<body class="mdui-theme-primary-green mdui-theme-accent-green">
+<body class="mdui-theme-primary-red mdui-theme-accent-red">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NQN5TK"
@@ -120,13 +120,13 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </script>
 
 <div class="mdui-appbar mdui-appbar-fixed">
-  <div class="mdui-toolbar mdui-color-green-600">
+  <div class="mdui-toolbar mdui-color-red-600">
     <a class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" href="#"><i class="mdui-icon material-icons">domain</i></a>
     <a class="mdui-typo-headline">1707 论坛</a>
     <div class="mdui-toolbar-spacer mdui-float-right">
     <a href="/" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '刷新'}"><i class="mdui-icon material-icons">refresh</i></a></div>
   </div>
-<div class="mdui-tab mdui-color-green-700" mdui-tab>
+<div class="mdui-tab mdui-color-red-700" mdui-tab>
   <a href="#" id="r1" class="mdui-ripple">
     <i class="mdui-icon material-icons mdui-text-color-white">forum</i>
   </a>
@@ -144,9 +144,6 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 
 <div>
 <div id="rio_1">
-<div style="padding-bottom:25px">
-<button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-center mdui-ripple-black" mdui-dialog="{target: '#lean'}"><i class="mdui-icon mdui-icon-left material-icons">translate</i> 英语复习方法</button>
-</div>
 <div class="mdui-container" style="padding-top:140px; padding-bottom:40px">
 <div id="dle">
 <a class="mdui-col-xs-9">显示版块列表</a>
@@ -275,17 +272,17 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 </div>
 </div>
 <div id="rio_2">
-<div class="mdui-color-green" style="position:absolute; width:100vw; height:400px">
+<div class="mdui-color-red" style="position:absolute; width:100vw; height:400px">
 <div class="mdui-container" style="padding-top:140px; padding-bottom:40px">
 <div class="mdui-shadow-6 mdui-color-white">
 <div class="mdui-container">
 <div class="mdui-ripple">
-<i class="mdui-text-color-green-700 mdui-center mdui-icon material-icons"  style="padding-top:50px; padding-bottom:50px; font-size:150px">receipt</i>
+<i class="mdui-text-color-red-700 mdui-center mdui-icon material-icons"  style="padding-top:50px; padding-bottom:50px; font-size:150px">receipt</i>
 <div class="mdui-typo-display-1 mdui-text-center">论坛使用帮助</div>
 </div>
 <div class="mdui-typo mdui-text-center mdui-typo-subheading-opacity mdui-text-color-teal"><strong>绿色字点击将调整到相应网站</strong></div>
 <div class="mdui-typo" style="padding-top:25px; padding-bottom:5px"><h3>这论坛是干嘛的?</h3></div>
-<div class="mdui-typo-body-2-opacity mdui-typo">这是一个给 1707 班同学提供交流的论坛, 这个论坛是由 <a class="mdui-text-color-green" href="https://riohsc.coding.me">RioHsc</a> 提供的。</div>
+<div class="mdui-typo-body-2-opacity mdui-typo">这是一个给 1707 班同学提供交流的论坛, 这个论坛是由 <a class="mdui-text-color-red" href="https://riohsc.coding.me">RioHsc</a> 提供的。</div>
 <div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px">您在使用本论坛时, 请遵守以下项:</div>
 <div class="mdui-typo">
 <ol>
@@ -299,12 +296,12 @@ window.onload = ()=>{ $('.mdui-progress').hide(1200) }
 <div class="mdui-typo" style="padding-top:25px; padding-bottom:5px">
 <h3>如何设置头像?</h3>
 </div>
-<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px">登录或注册 <a class="mdui-text-color-green" href="http://cn.gravatar.com">Gravatar</a> , 然后修改自己的头像。</div>
-<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px"><ul><li>头像使用邮箱来识别, 您注册时请记住您的邮箱, 并且在帖子上的邮箱上填写您注册的邮箱才能成功显示您设置的头像。如果设置完发现没有显示没关系, <a class="mdui-text-color-green" href="http://cn.gravatar.com">Gravatar</a> 有 7 天的缓存期, 七天后即可生效。</ul></div>
+<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px">登录或注册 <a class="mdui-text-color-red" href="http://cn.gravatar.com">Gravatar</a> , 然后修改自己的头像。</div>
+<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px"><ul><li>头像使用邮箱来识别, 您注册时请记住您的邮箱, 并且在帖子上的邮箱上填写您注册的邮箱才能成功显示您设置的头像。如果设置完发现没有显示没关系, <a class="mdui-text-color-red" href="http://cn.gravatar.com">Gravatar</a> 有 7 天的缓存期, 七天后即可生效。</ul></div>
 <div class="mdui-typo" style="padding-top:25px; padding-bottom:5px">
 <h3>如何在帖子中插入图片?</h3>
 </div>
-<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px">在 <a class="mdui-text-color-green" href="https://sm.ms/">SM.MS</a> 里上传图片, 具体操作是 Browse[选择图片] - Upload - 点击下面的 Markdown 把下面显示的内容复制到写帖子的地方即可显示。</div>
+<div class="mdui-typo-body-2-opacity mdui-typo" style="padding-bottom:5px">在 <a class="mdui-text-color-red" href="https://sm.ms/">SM.MS</a> 里上传图片, 具体操作是 Browse[选择图片] - Upload - 点击下面的 Markdown 把下面显示的内容复制到写帖子的地方即可显示。</div>
 <div class="mdui-typo" style="padding-top:25px; padding-bottom:5px">
 <h3>关于邮箱通知</h3>
 </div>
